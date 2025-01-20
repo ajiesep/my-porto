@@ -46,10 +46,10 @@ export default function HeroContent() {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I am deeply committed to creating functional and impactful solutions
-          through coding. For me, programming is more than a skill it's a way to
-          solve real world problems and make technology accessible. I take pride
-          in writing clean and efficient code that transforms ideas into
-          tangible, meaningful results.
+          through coding. For me, programming is more than a skill it&apos;s a
+          way to solve real world problems and make technology accessible. I
+          take pride in writing clean and efficient code that transforms ideas
+          into tangible, meaningful results.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

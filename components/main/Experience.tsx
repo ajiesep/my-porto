@@ -1,6 +1,7 @@
 import { workExperience } from "@/constants/index";
 import React from "react";
 import { Button } from "../sub/MovingBorders";
+import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -21,8 +22,10 @@ export default function Experience() {
             className="flex-1 text-white border border-neutral-200 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300"
           >
             <div className="flex flex-col lg:flex-row lg:items-center p-6 md:p-8 lg:p-12 gap-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-all">
-              <img
+              <Image
                 src={card.thumbnail}
+                width={1000}
+                height={500}
                 alt={card.title}
                 className="lg:w-32 md:w-24 w-20 rounded-md shadow-sm"
               />
