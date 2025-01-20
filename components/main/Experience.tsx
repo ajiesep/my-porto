@@ -13,7 +13,7 @@ export default function Experience() {
           Work Experience
         </span>
       </h1>
-      <div className="w-full mt-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-6 md:px-12">
+      <div className="w-full h-full mt-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-6 md:px-12">
         {workExperience.map((card) => (
           <Button
             key={card.id}
